@@ -3,6 +3,7 @@
         
         table, th, td {
           border:1px solid black;
+          padding: 2;
         }
         
       
@@ -19,20 +20,26 @@
         <a  href="#home" >Home </a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
+        <a href="#location">Location</a>
+        <a href="#mainHeading">Technologies</a>
         <a href="#contact me">Contact me</a>
         <!-- section start-->
         <section id="home">
             <center>
                 <h2 style="color:red">About me </h2>
             </center>
+            <div>
+            <div align="center" class="box left" >
+                I'm a dynamic, team spirited and performance driven Software Developer working at IvyComptech. I have a wide range of skills that include back-end development using open source technologies(Java,Spring,Springboot,Python), front-end development (Angular9,HTML5, CSS3,Javascript), database(MongoDB,cassendra,Mysql,Oracle).Seeking position to utilize the skills and abilities that offers professional growth while being resourceful, innovative and flexible.
+            </div>
            
-            <center>
-                <img src="picwd.jpg"  alt="profileImage" title="profileImage" / >
-            </center>
-            <p>
-                Hi iam srivarsha...I'm a fresher software engineer who constantly seeks out innovative solutions to everyday problems.I've honed my analytical thinking and collaboration skills, and I love working with a team.who constantly seeks out innovative solutions to everyday problems.I've honed my analytical thinking and collaboration skills, and I love working with a team.
-            </p>
-         
+            <div align="right"  class="box right">
+                <img src="varsha pic (1).jpg"  alt="profileImage" title="profileImage" / height="200" width="200" >
+            </div>
+           
+        </div>
+         <br/>
+         <br/>
             
         </section>
         <hr/>
@@ -42,23 +49,32 @@
             </center>
             <table  align="center">
                 <tr>
-                    <th>education level</th> 
+                    <th>Education level</th> 
                     <th>University Name</th> 
+                    <th>Cgpa</th>
                     <th>passout year</th>
                 </tr>
                 <tr>
                     <td>10 TH</td>
                     <td>IJCHS</td>
+                    <td>10</td>
                     <td>2015</td>
+                </tr>
+                <tr>
+                    <td>PUC</td>
+                    <td>RGUKT-BASAR</td>
+                    <td>9.1</td>
+                    <td>2017</td>
                 </tr>
                 <tr>
                     <td>B-TECH</td>
                     <td>RGUKT-BASAR</td>
+                    <td>8.5</td>
                     <td>2021</td>
                 </tr>
               </table>
 
-
+<br/>
       
     </section>
         <!--section end-->
@@ -82,7 +98,7 @@
         </center>
          
         <hr/>
-        <section >
+        <section id="location">
         <center>
             <h1 style="color:red"; font-weight:bold;>Location</h1>
         </center>
@@ -90,6 +106,7 @@
           
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7588.481722877766!2d79.61288592396171!3d18.01402220082367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a33445a62a5a94b%3A0xa6a2cd405f4e13dc!2sPaidi%20Pally%2C%20Telangana%20506006!5e0!3m2!1sen!2sin!4v1637149849201!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </center>
+        <br/>
 <hr/>
         <div id="mainHeading">
             <center>Technologies</center>
@@ -125,19 +142,20 @@
             <p>
                 Mysql is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach.
             </p>
+            
         </div>
 
         <br>
         </section>
-        <br><br>
-       
-        <br>
+      
+        <br/>
+        <br/>
         <hr/>
     
     <section id="contact me">
         <center>
             <br>
-            <br>
+            
         
             <h2 style="color:red">Contact me</h2>
         </center>
@@ -179,7 +197,7 @@
                         <input name="date" type="date" id="date" value="2021-11-21"/>
                     </div>
                     <br/>
-                   <br/>
+                   
                     <div>
                         <label for="city">Choose Your City</label>
                         <input list="cities" name="mycity" id="city"/>
@@ -191,7 +209,7 @@
                             
                         </datalist>
                     </div>
-                    
+                    <br/>
                     <button type="submit">Submit</button>
                     <button type="reset">Reset</button>
                 </fieldset>
